@@ -184,7 +184,7 @@ def main():
     check_encoding()
     set_process_name("pyvoicechanger")
     set_single_instance("pyvoicechanger")
-    set_desktop_launcher("pyvoicechanger", desktop_file_content)
+    ##set_desktop_launcher("pyvoicechanger", desktop_file_content)
     application = QApplication(sys.argv)
     application.setApplicationName("pyvoicechanger")
     application.setOrganizationName("pyvoicechanger")
